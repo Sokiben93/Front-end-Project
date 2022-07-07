@@ -1,6 +1,26 @@
 body {
-    background-color: rgba(128, 0, 128, 0.771);
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    /* margin: 0; */
+    /* font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align); */
+    background-color: #800080c5;
+    /* background-size: 300%; */
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+html {
+    /* background-color: #800080c5; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    background-color: #7e258fc5;
 }
 
 .header-content h1 {
@@ -20,7 +40,7 @@ body {
 }
 
 .button {
-    width: 120px;
+    width: 140px;
     height: 35px;
     border-radius: 5%;
     margin-left: auto;
@@ -53,21 +73,45 @@ div .person {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+div .person1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div .person2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 5px;
 }
 
 img {
     border-radius: 48%;
 }
 
+.info {
+    background-color: rgb(196, 166, 223);
+    /* border: 1px solid ; */
+}
 .footer-info {
     background-color: rgb(188, 151, 223);
-    border: 2px solid ;
+    border: 1px solid ;
     margin-bottom: 15px;
 }
 
 .gender {
     margin-left: 10px;
-    margin-right: 120px;
+    margin-right: auto;
     margin-top: 15px;
 }
 
@@ -77,6 +121,7 @@ img {
 .age {
     margin-right: 10px;
     margin-top: 15px;
+    margin-left: 100px;
 }
 
 .email {
